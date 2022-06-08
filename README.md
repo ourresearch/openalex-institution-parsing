@@ -5,5 +5,5 @@ OpenAlex model that assigns institutional affiliations to works. Go into the mod
 * V1 (current)
 
 ### Model Development
-You can find an explanation of the modeling process at the following link:
+You can find an explanation of the modeling and deployment process at the following link:
 --INSERT LINK HERE---
