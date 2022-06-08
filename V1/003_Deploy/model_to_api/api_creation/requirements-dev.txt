@@ -1,0 +1,3 @@
+chalice==1.26.5
+py.test
+boto3

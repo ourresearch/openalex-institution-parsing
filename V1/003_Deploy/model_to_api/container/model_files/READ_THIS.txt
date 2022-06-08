@@ -1,0 +1,1 @@
+In order to run the local test, unzip the model files into this folder (see instructions in the README for where to locate the model files).
