@@ -1,0 +1,10 @@
+numpy
+tensorflow==2.8.0
+transformers==4.18.0
+langdetect
+unidecode
+pandas
+boto3
+s3fs
+fsspec
+pyarrow
