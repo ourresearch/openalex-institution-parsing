@@ -6,4 +6,4 @@
 
 ### Model Development
 You can find an explanation of the modeling and deployment process at the following link:
---INSERT LINK HERE---
+[Institution Parser Modeling Process](https://docs.google.com/document/d/1ppbKRVtyneWc7Hjpo8TOm57YLGx1C2Oo/edit?usp=sharing&ouid=112616748913247881031&rtpof=true&sd=true)
