@@ -1,5 +1,7 @@
 ### V2 of the OpenAlex Institution Tagger Model
 
+The V2 model improves over the V1 model in both performance and functionality. We are now able to accurately predict on strings that have multiple institutions and return multiple institution predictions. There was also a decision made to only predict on institutions that have a ROR ID, as opposed to the V1 model which tried to predict on all institutions we inherited from MAG and other data sources. Lastly, we are releasing more "gold" test data that can be used to quickly test model performance. Please see below for the data that is available and look in the notebooks to see the code for using those datasets. 
+
 This page serves as a guide for how to use this part of the repository. You should only have to make minor changes to the code (adding API key files, changing file paths, updating configuration files, etc.) in order to make this code functional. The python package requirements file can be used for all python notebooks in this directory.
 
 #### 001 Exploration
