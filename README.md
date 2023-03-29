@@ -3,7 +3,7 @@
 
 ### Model Iterations
 * V1
-* V2 (current)
+* V2 (current!)
 
 ### Model Development
 You can find an explanation of the modeling and deployment process at the following link:
