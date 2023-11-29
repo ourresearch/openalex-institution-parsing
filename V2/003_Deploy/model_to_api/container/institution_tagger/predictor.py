@@ -46,6 +46,11 @@ print("Loaded countries dictionary")
 
 with open(os.path.join(model_path, "city_country_list.pkl"), "rb") as f:
     city_country_list = pickle.load(f)
+    
+print("Loaded merged institutions file")
+
+with open(os.path.join(model_path, "merged_inst_dict.pkl"), "rb") as f:
+    merged_inst_dict = pickle.load(f)
 
 print("Loaded strings of city/country combinations")
 
@@ -482,6 +487,9 @@ def get_final_prediction(basic_pred_score, lang_pred_score, countries, raw_sente
     true_final_preds = [x for x,y,z in zip(final_preds, final_scores, final_cats) if x not in preds_to_remove]
     true_final_scores = [y for x,y,z in zip(final_preds, final_scores, final_cats) if x not in preds_to_remove]
     true_final_cats = [z for x,y,z in zip(final_preds, final_scores, final_cats) if x not in preds_to_remove]
+    
+    if any(x in true_final_preds for x in merged_inst_dict.keys()):
+        true_final_preds = [merged_inst_dict[i] if i in merged_inst_dict.keys() else i for i in true_final_preds]
     
     if not true_final_preds:
         true_final_preds = [-1]

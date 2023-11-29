@@ -1,2 +1,3 @@
 *.DS_Store
 *.ipynb_checkpoints*
+*V2/003_Deploy/model_to_api/container/model_files/*
