@@ -35,3 +35,6 @@ In order to effectively test the model, multiple different datasets were created
 * CWTS Multi-String Institution Related: Mostly multi-string institutions where institutions are related (think university and university hospital). Data was curated by CWTS.
 * Sampled 200: Randomly sampled strings. Gives true idea of our model performance.
 * Multi-String OpenAlex: Small multi-institution string dataset created to help with initial model testing.
+
+The test data cn also be found in Google sheets:
+[OpenAlex Benchmark Data](https://docs.google.com/spreadsheets/d/1yHVn0mybvgM3Hx4_4LnOY3agXNzuHVN5iHfjroD3S34/edit?usp=sharing)
